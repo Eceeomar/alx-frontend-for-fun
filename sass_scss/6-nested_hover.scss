@@ -1,6 +1,8 @@
+// Styling for a button element
 button {
     color: #FF0000;
 
+    // Apply color change on hover
     &:hover {
         color: #00FF00;
     }
