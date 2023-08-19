@@ -1,10 +1,8 @@
-// Styling for buttons
-// Task: Set text color to #FF0000 for button tags
-// When the user hovers over button tags, text color should change to #00FF00
+/* File that assigns text color `#FF0000` to `button` tags and when the user hovers over `button` tags, text color should change to `#00FF00` using nested declarations. */
 button {
-    color: #FF0000; // Set initial text color
+	color: #ff0000;
 
-    &:hover {
-        color: #00FF00; // Change text color on hover
-    }
+	&:hover {
+		color: #00ff00;
+	}
 }
